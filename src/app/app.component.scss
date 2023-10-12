@@ -1,0 +1,63 @@
+.password__wrapper{
+    height: 250px;
+    width: 800px;
+    margin: 0 auto;
+    border: 1px black dotted;
+    border-radius: 5px;
+}
+
+.password__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.password__title{
+    margin: 40px 0;
+    font-size: 40px;
+}
+
+.password__input{
+    height: 20px;
+    width: 240px;
+    padding: 10px;
+    margin-bottom: 5px;
+    padding-right: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.password__logo-eye{
+    position: absolute;
+    top: 150px;
+    margin-left: 245px;
+    cursor: pointer;
+}
+
+.password__sections{
+    width: 250px;
+    height: 5px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.password__section{
+    width: 32%;
+    margin: 0 5px;
+    border-radius: 5px ;
+    background-color: rgb(105, 105, 105);
+}
+
+.strong_password {
+    background-color: green;
+}
+
+.medium_password {
+    background-color: rgb(232, 232, 1);
+}
+
+.easy_password {
+    background-color: red;
+}
